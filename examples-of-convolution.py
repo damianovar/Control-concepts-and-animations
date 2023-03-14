@@ -36,7 +36,7 @@ def showConvolution(t0,f1, f2):
 
     # plot the convolution curve
     axes[1].set_xlim(-5, 5)
-    axes[1].set_ylim(-3, -3)
+    axes[1].set_ylim(-3, 3)
     axes[1].plot(t, convolution, label='$(f_1*f_2)(t)$')
 
     # recalculate the value of the convolution integral at the current time-shift t0
